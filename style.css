@@ -1,0 +1,250 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #222;
+}
+
+.produk-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.produk {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.produk:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.produk img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produk h3 {
+  margin: 10px 0;
+  color: #444;
+}
+
+.produk p {
+  margin-bottom: 10px;
+}
+
+.produk a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.produk a:hover {
+  background-color: #555;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9em;
+  border-radius: 10px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.menu-vertikal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-vertikal ul li {
+  margin-bottom: 15px;
+}
+
+.menu-vertikal ul li a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #444;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: block;
+}
+
+.menu-vertikal ul li a:hover {
+  background-color: #666;
+}
+
+.konten {
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.kontak-form {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.kontak-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.kontak-form input,
+.kontak-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.kontak-form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.kontak-form button:hover {
+  background-color: #444;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+.produk-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.produk {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.produk img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produk h3 {
+  margin: 10px 0 5px;
+}
+
+.produk p {
+  margin: 5px 0;
+}
+
+.produk a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.produk a:hover {
+  background-color: #444;
+}
+
+
+}
